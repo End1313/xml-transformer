@@ -6,9 +6,9 @@ import org.dom4j.io.SAXReader;
 
 import java.io.File;
 
-public class DocumentReader {
+public class DocumentReaderService {
 
-    Document getDocumentByFile(File file) throws DocumentException {
+    public Document getDocumentByFile(File file) throws DocumentException {
         return new SAXReader().read(file);
     }
 }

@@ -2,9 +2,9 @@ package com.redblakccoffee.app.service;
 
 import java.io.File;
 
-public class FileReader {
+public class FileReaderService{
 
-    File getFileByUrl(String url){
+    public File getFileByUrl(String url){
         return new File(url);
     }
 }
